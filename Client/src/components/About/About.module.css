@@ -1,0 +1,66 @@
+.avatar{
+    position: absolute;
+    height: 350px;
+    right: 14%;
+    bottom: 20%;
+}
+
+.titulo{
+    position: absolute;
+    color: white;
+    text-shadow: 0 0 3px rgb(255, 255, 255), 
+        0 0 6px rgba(255, 255, 255, 0.600),
+        0 0 10px rgba(255, 255, 255, 0.400),
+        0 0 35px rgba(255, 255, 255, 0.500);
+    font-size: 55px;
+    text-align: center;
+    left: 17.8%;
+    top: 22%;
+}
+
+.muchotexto{
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 3px rgb(0, 0, 0), 
+        0 0 6px rgba(0, 0, 0, 0.826),
+        0 0 10px rgba(0, 0, 0, 0.701),
+        0 0 35px rgba(0, 0, 0, 0.7),
+        0 0 45px rgba(0, 0, 0, 0.6);;
+    max-width: 330px;
+    line-height: 1.5;
+    top: 42%;
+    left: 17.7%
+}
+
+.muchotexto1{
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 3px rgb(0, 0, 0), 
+        0 0 6px rgba(0, 0, 0, 0.826),
+        0 0 10px rgba(0, 0, 0, 0.701),
+        0 0 35px rgba(0, 0, 0, 0.7),
+        0 0 45px rgba(0, 0, 0, 0.6);;
+    max-width: 330px;
+    line-height: 1.5;
+    top: 65%;
+    left: 17.5%
+}
+
+.firma{
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.423), 
+        0 0 6px rgba(0, 0, 0, 0.423),
+        0 0 10px rgba(0, 0, 0, 0.423),
+        0 0 35px rgba(0, 0, 0, 0.424);
+    bottom: 5%;
+    right: 22.2%;
+    max-width: 145px;
+    line-height: 2;
+}
