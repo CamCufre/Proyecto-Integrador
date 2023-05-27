@@ -1,0 +1,35 @@
+@font-face{
+    font-family: 'Retroville';
+    src: url('./1-Retroville\ NC.ttf')
+}
+
+@font-face{
+    font-family: 'Starseed';
+    src: url('./2-StarseedPro.ttf')
+}
+
+body {
+    background-image: url('./ww.gif');
+    background-size: cover;
+    font-family: 'Retroville', 'Starseed';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+a {
+    text-decoration: none;
+}
+
+  body.home {
+    background-image: url('./swyg1.png');
+    background-size: cover;
+  }
+  
+  body.about {
+    background-image: url('./wea_oscu.png');
+  }
+
+  body.collection {
+    background-image: url('./bg-rm-hq-dif.png');
+    background-size: cover;
+  }
