@@ -1,0 +1,47 @@
+.container{
+    background-color: rgb(16, 11, 63);
+    display: flex;
+    margin-top: -8px;
+    margin-left: -10px;
+    width: 1362px;
+    height: 60px;
+    border: 0px solid rgb(7, 4, 26);
+    box-shadow: 0 0 3px rgb(7, 4, 26), 
+    0 0 6px rgba(7, 4, 26, 0.342), 
+    0 0 8px rgba(7, 4, 26, 0.357), 
+    0 0 12px rgba(7, 4, 26, 0.307), 
+    0 0 35px rgba(7, 4, 26, 0.355);
+}
+
+.home{
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 85px;
+    transition: color 0.5s ease;
+}
+
+.home:hover{
+    color: rgba(255, 255, 255, 0.468);
+    cursor: pointer;
+}
+
+.logout{
+    height: 30px;
+    width: 70px;
+    font-family: 'Retroville';
+    padding-bottom: 5px;
+    margin-left: 510px;
+    margin-top: 17px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(20, 0, 170, 0);
+    border-color: rgba(20, 0, 170, 0);
+    transition: color 0.5s ease;
+}
+
+.logout:hover{
+    color: rgba(255, 255, 255, 0.468);
+    cursor: pointer;
+}
