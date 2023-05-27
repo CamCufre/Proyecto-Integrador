@@ -1,0 +1,16 @@
+body {
+    background-image: url(../../bg-rm-hq-dif.png);
+}
+
+.error{
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: rgb(40, 183, 0);
+    text-shadow: 0 0 3px rgb(0, 0, 0), 
+    0 0 6px rgba(13, 60, 0, 0.600), 
+    0 0 8px rgba(13, 60, 0, 0.600), 
+    0 0 12px rgba(13, 60, 0, 0.600), 
+    0 0 35px rgba(13, 60, 0, 0.350),
+    0 0 50px rgba(13, 60, 0, 0.350);
+}
