@@ -1,0 +1,68 @@
+.container{
+    position: relative;
+    margin-left: 510px;
+    margin-top: 15px;
+    margin-right: 145px;
+}
+
+.input{
+    width: 250px;
+    height: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    background-color: rgba(180, 180, 180, 0.435);
+    border: 1px solid black;
+    transition: box-shadow 0.5s ease;
+    text-indent: 15px;
+    font-family: 'Retroville';
+    font-size: 11px;
+    color: white;
+}
+
+input:focus {
+    border-color: black;
+    outline: none;
+  }
+
+.input:hover{
+    box-shadow: 0 0 3px rgb(0, 0, 0), 
+    0 2px 6px rgba(0, 0, 0, 0.342), 
+    0 3px 8px rgba(0, 0, 0, 0.357);
+}
+
+::placeholder{
+    position: absolute;
+    font-family: 'Retroville';
+    font-size: 11px;
+    margin-top: 6px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+.button{
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -35px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0%;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-search-cancel-button {
+    padding: 4px;
+    cursor: pointer;
+  }
+
+.icon{
+    position: absolute;
+    height: 16px;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
