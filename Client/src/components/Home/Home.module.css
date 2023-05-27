@@ -1,0 +1,78 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h1{
+    background-color: rgb(255, 255, 255);
+    padding: 0px 25px 12px 80px;
+    border-radius: 0.3em;
+    border-color: rgb(68, 255, 0);
+    text-shadow:  2px 2px 3px rgba(0, 0, 0, 0.79);
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 220px;
+    bottom: 60px;
+    font-family: 'Starseed';
+    font-size: 35px;
+}
+
+.cabeza{
+    position: absolute;
+    height: 400px;
+    top: 210px;
+    left: 25px;
+}
+
+.welcome{
+    margin-left: 380px;
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px rgb(255, 255, 255), 
+        0 0 6px rgba(255, 255, 255, 0.600),
+        0 0 10px rgba(255, 255, 255, 0.400),
+        0 0 35px rgba(255, 255, 255, 0.500);
+    font-size: 100px;
+}
+
+.exc{
+    position: absolute;
+    top: 142px;
+    left: 935px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px rgb(255, 255, 255), 
+        0 0 6px rgba(255, 255, 255, 0.600),
+        0 0 10px rgba(255, 255, 255, 0.400),
+        0 0 35px rgba(255, 255, 255, 0.500);
+    font-size: 100px;
+    animation: parpadear 1s infinite cubic-bezier(0.12, 0, 0.39, 0);
+}
+
+@keyframes parpadear {
+    to {
+    color: rgba(255, 255, 255, 0);
+    text-shadow: none;
+    }
+    }
+
+.check{
+    color: rgb(68, 255, 0);
+    text-shadow: 0 0 3px rgb(68, 255, 0), 
+        0 0 6px rgba(68, 255, 0, 0.600),
+        0 0 10px rgba(68, 255, 0, 0.400),
+        0 0 35px rgba(68, 255, 0, 0.500);
+    position: absolute;
+    top: 315px;
+    left: 335px;
+    font-size: 35px;
+}
+
+.collect{
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 0 20px rgba(0, 0, 0, 0.652),
+    10px 0 30px rgba(0, 0, 0, 0.652);
+    position: absolute;
+    top: 225px;
+    font-size: 35px;
+    left: 360px;
+}
