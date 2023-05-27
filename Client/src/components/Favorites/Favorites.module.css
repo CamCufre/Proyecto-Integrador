@@ -1,0 +1,46 @@
+body {
+    background-image: url('../../bg-rm-hq-dif.png');
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    margin-left: 1.2%;
+    margin-right: 0%;
+    margin-top: 1.5%;
+}
+
+.selector{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-family: 'Retroville';
+    color: white;
+    font-size: 11px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 68px;
+    width: 125px;
+    left: 40%;
+}
+
+.selector1{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-family: 'Retroville';
+    color: white;
+    font-size: 11px;
+    height: 20px;
+    width: 125px;
+    display: inline-block;
+    position: absolute;
+    top: 68px;
+    left: 50%;
+}
+
+.option{
+    color:rgb(18, 18, 40)
+}
